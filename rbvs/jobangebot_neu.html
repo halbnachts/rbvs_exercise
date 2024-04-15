@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neues Jobangebot anlegen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/validate.js"></script>
+</head>
+
+<header>
+    * HEADER * <br>
+</header>
+
+<body>
+
+    <h1>Neues Jobangebot anlegen</h1>
+
+    <main>
+
+    <form action="" name="neuerjob" onsubmit="return validateForm()" method="">
+
+        <div class="form-group"> 
+            <label for="abteilungs_id">Abteilungs-ID:</label><br>
+            <select id="abteilungs_id" name="abteilungs_id">
+                <option value="1">1 </option>
+                <option value="2">2</option>
+            </select>
+            <span></span>
+        </div><br>
+
+        <div class="form-group">
+            <label for="jobtitel">Jobtitel:</label><br>
+            <input type="text" id="jobtitel" name="jobtitel"><br><br>
+            <label for="beschreibung">Jobbeschreibung:</label><br>
+            <input type="text" id="beschreibung" name="beschreibung"><br><br>
+            <span></span>
+        </div><br>
+       
+        <input type="submit" value="Absenden">
+
+    </form>
+
+    </main>
+
+</body>
+
+<footer>
+    * FOOTER *
+</footer>
+
+</html>

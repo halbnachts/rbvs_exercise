@@ -1,0 +1,29 @@
+header {
+    background-color: rgb(249, 203, 134);
+    color: #470808; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    text-align: center;
+} 
+
+body {
+    background-color: rgb(205, 175, 138);
+  }
+
+h1 {
+    color: #470808; 
+    text-align: center;
+}
+
+main {
+    color: #000000; 
+    padding: 50px;
+} 
+
+footer {
+    background-color: rgb(249, 203, 134);
+    color: #470808;  
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    text-align: center;
+}
